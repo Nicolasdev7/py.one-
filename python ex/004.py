@@ -1,0 +1,13 @@
+info = input('Digite algo: ')
+
+print('É numérico?', info.isnumeric())
+print('É decimal?', info.isdecimal())
+print('É dígito?', info.isdigit())
+print('É alfanumérico?', info.isalnum())
+print('É alfabético?', info.isalpha())
+print('Está em maiúsculas?', info.isupper())
+print('Está em minúsculas?', info.islower())
+print('Está capitalizado?', info.istitle())
+print('É um espaço?', info.isspace())
+print('É identificador válido?', info.isidentifier())
+print('É imprimível?', info.isprintable())
