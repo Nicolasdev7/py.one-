@@ -13,7 +13,7 @@ elif classe < 15:
 elif classe < 20:     
       print('O atleta pertence a categoria JUNIOR')
 
-elif classe == 20:
+elif classe < 26:
       print('O atleta pertence a categoria SÊNIOR')
 
 else:
